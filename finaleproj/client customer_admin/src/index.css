@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+  background: lightgrey;
+  font-family: 'Open Sans',serif;
+}
+
+.wrapper1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 100px auto 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin:0;
+  padding:0px;
+  border-spacing: 0px;
+  border:none;
+  border-collapse: collapse;
+  height: auto;
+}
+.box head {
+  grid-row: 1;
+  grid-column: 1;
+
+  background: #444;
+  padding: 0px;
+
+  min-height: 50px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  box-shadow: 0px 1px 1px 0px rgba(1, 22, 0, 0.250);
+  margin-bottom:0px;
+
+  background: #444;
+  display: grid;
+
+
+}
+.middle{
+  margin-top:1px;
+  background: lightgrey;
+  text-align: center;
+  min-height:600;
+  height: auto;
+}
+.bottom {
+  margin-top:auto;
+  background: lightgrey;
+}
+.menutable {
+  font-size:30;
+  color: white;
+  border-spacing: 0px;
+  border-spacing: 0px;
+  border:none;
+  border-collapse: collapse;
+  text-align: center;
+}
+.header_table {
+  text-align:center;
+  align:center;
+}
+.menuDiv {
+  background: #444;
+  text-align: center;
+  height:46px;
+}
+.menuDiv ul {
+	display: inline-block;
+	margin: 10px 0;
+	padding: 2px;
+}
+.menuDiv li {
+  display: inline-block;
+  width: 200px;
+  background: #444;
+}
+.menuDiv li:hover {
+  background: lightgray;
+}
+.menuDiv li a {
+	display: inline-block;
+	color: #FFF;
+	padding: 0px;
+	text-decoration: none;
+}
+.menuDiv li {
+	display: inline-block;
+	color: #FFF;
+	padding: 0px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.loginDiv {
+  height: 54px;
+  background: #444;
+  text-align: right;
+  color:white;
+}
+
+.loginDiv ul {
+  color: white;
+  display: inline-block;
+}
+.loginDiv li {
+  display: inline-block;
+	color: #FFF;
+  width: 200px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.loginDiv li:hover > .navlink {
+  background: lightgray;
+}
+.loginDiv li:hover {
+  background: lightgray;
+}
+.loginDiv li a:hover ~ .navlink {
+  background: lightgray;
+}
+.navlink{
+  color:white;
+  text-decoration: none;
+  box-sizing: border-box;
+  width:100%
+}
+ .bottom {
+   text-align: center;
+   margin:0;
+   padding: 0;
+ }
+ .centerDisplayDiv {
+  width:100%; 
+  min-width: 800px;
+  max-height: 2000px;
+
+  text-align: center;
+  background: rgb(135, 135, 136);
+  display: inline-block;
+ }
+
+ .centerDisplayDiv {
+   min-height: 650px;
+   height: 1000px;
+ }
+ .centerDisplayDiv.loginFormDiv {
+   height: 175px;
+   margin-top: 16px;
+  }
+ 
+ .loginFormOuterDiv {
+   height: 225px;
+ }
+ .loginFormDiv {
+  text-align: center;
+  display: inline-block;
+  background: rgb(135, 135, 136);
+  width:100px;
+  height: 225px;
+
+  box-shadow: 0px 0px 10px  5px rgba(100, 100, 100, 0.5);
+
+  margin:0px;
+  padding: 0px;
+  padding-top: 0px;
+ }
+ .LoginLabelDiv{
+  
+ 
+  
+ }
+ .LoginInputDiv{
+  margin-top:0px;
+  padding-top:0px;
+  width: 50%;
+  max-height:150px;
+  text-align: center;
+  display: inline-block;
+ }
+ .LoginInputDiv label {
+   margin:0px;
+   padding: 0px;
+ }
+ .signUpFormDiv {
+  
+  text-align: center;
+  display: inline-block;
+  background: rgb(135, 135, 136);
+  width:250px;
+  height: 550px;
+  box-shadow: 0px 0px 10px  5px rgba(100, 100, 100, 0.5);
+
+  margin:0px;
+  margin-top: 16px;
+  padding: 0px;
+ }
+ .signUpFormInputDiv{
+  margin-top:0px;
+  padding-top:0px;
+  width: 375px;
+  height: auto;
+  max-height:1000px;
+
+  display: inline-block;
+ }
+
+ .signUpFormInputDiv label {
+  display: inline-block;
+  padding-bottom: 5px;
+  width: 145px;
+  text-align: left;
+
+ }
+
+ .loginFormDiv label {
+  display: inline-block;
+  padding-bottom: 5px;
+  width: 145px;
+  text-align: left;
+ }
+ .profileListDiv {
+   text-align: center;
+ }
+ .profileList {
+   text-align: left;
+   display: inline-block;
+   
+ }
+ .profileListItemInput {
+  text-align: center;
+  display: grid;
+ }
+ .ordersDiv {
+   margin: 0px;
+   padding:0px;
+ }
+
+ .orderMenuDiv {
+  text-align: center;
+  height:35px;
+}
+.orderMenuDiv ul {
+	display: inline-block;
+	margin: 10px 0;
+
+}
+.orderMenuDiv li {
+  display: inline-block;
+  width: 200px;
+  background: #444;
+}
+.orderMenuDiv li:hover {
+  background: lightgray;
+}
+.orderMenuDiv li a {
+	display: inline-block;
+	color: #FFF;
+
+	text-decoration: none;
+}
+.orderMenuDiv li {
+	display: inline-block;
+	color: #FFF;
+	padding: 0px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.orderOverviewTableDiv {
+  text-align: center;
+
+}
+.orderOverviewTable {
+  text-align: center;
+}
+.orderUpdateInfo {
+  width:auto;
+}
+.OrderOverviewEditableUserInput {
+  width: 100%
+}
+.newOrderNavlinkToOffer{
+  text-decoration: underline;
+  color: #FFF;
+  
+}
+.newOrderNavlinkToOffer a {
+  background: lightgray;
+}
+.newOrderTable {
+  text-align: center;
+}
+.newOrderTableDiv table {
+  text-align: center;
+}
+.newOrderTableDiv {
+  text-align: center;
+}
+.ordersDiv {
+  text-align: center;
+}
+.offersDiv {
+  margin: 0px;
+  padding:0px;
+}
+
+.offerMenuDiv {
+ text-align: center;
+ height:35px;
+}
+.offerMenuDiv ul {
+ display: inline-block;
+ margin: 10px 0;
+
+}
+.offerMenuDiv li {
+ display: inline-block;
+ width: 200px;
+ background: #444;
+}
+.offerMenuDiv li:hover {
+ background: lightgray;
+}
+.offerMenuDiv li a {
+ display: inline-block;
+ color: #FFF;
+
+ text-decoration: none;
+}
+.offerMenuDiv li {
+ display: inline-block;
+ color: #FFF;
+ padding: 0px;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+.offerOverviewTableDiv {
+ text-align: center;
+
+}
+.offerOverviewTable {
+ text-align: center;
+}
+.offerUpdateInfo {
+ width:auto;
+}
+.offerOverviewEditableUserInput {
+ width: 100%
+}
+.newofferNavlinkToOffer{
+ text-decoration: underline;
+ color: #FFF;
+ 
+}
+.newofferNavlinkToOffer a {
+ background: lightgray;
+}
+.newofferTable {
+ text-align: center;
+}
+.newofferTableDiv table {
+ text-align: center;
+}
+.newofferTableDiv {
+ text-align: center;
+}
+.offersDiv {
+ text-align: center;
+}
+
+.newofferTableDiv .newOfferFormDiv .newOfferForm {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+}
+
+.newofferTableDiv .newOfferFormDiv {
+  margin-top:0px;
+  padding-top:0px;
+  width: 1000px;
+  max-height:150px;
+  text-align: center;
+  display: inline-block;
+ }
